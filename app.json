@@ -4,7 +4,6 @@
     "slug": "x-tip",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "scheme": "xtip",
     "ios": {
@@ -13,16 +12,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#0B0E14",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#0B0E14"
       },
       "package": "com.ultrablitz.xtip"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+    "web": {},
     "extra": {
       "eas": {
         "projectId": "cc0c7cbf-1cf8-4751-99e1-340857df6823"
