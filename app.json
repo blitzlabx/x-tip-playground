@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "X-Tip Playground",
+    "slug": "x-tip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "xtip",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ultrablitz.xtip"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0E14",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.ultrablitz.xtip"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cc0c7cbf-1cf8-4751-99e1-340857df6823"
+      }
+    }
+  }
+}
